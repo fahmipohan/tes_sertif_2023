@@ -1,0 +1,93 @@
+@media screen and (max-width: 780px) {
+    .container-awal .img-content {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .container-awal .img-content {
+        width: 30%;
+    }
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif !important;
+}
+
+*, h1, h2, p {
+    color: #ffff;
+}
+
+/* Header atau Navbar */
+.navbar {
+    background-color: #000000;
+}
+
+img {
+    width: 80px;
+    height: 80px
+}
+
+.club {
+    font-family: 'Righteous', sans-serif;
+    font-size: 40px;
+    color: #ffff;
+    
+}
+
+.nav-link {
+    color: #ffff;
+}
+
+.nav-link:hover {
+    color: #DAA520;
+}
+
+.active {
+    color: #DAA520; 
+}
+
+/* Content Parallax */
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Parallax Awal */
+.awal {
+    background-image: url("/static/img/club-1.jpg");
+}
+
+.container-awal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0;
+}
+
+.img-content {
+    height: 100%;
+    width: 30%;
+}
+
+/* Parllax Content */
+.content {
+    background-color: #DAA520;
+}
+
+/* Parallax Footer */
+.akhir{
+    background-image: url("/static/img/bike-1.jpg");;
+}
+
+/* Tentang Kami img class big-bike */
+.big-bike{
+    width: 100%;
+    height: 100%;
+}
